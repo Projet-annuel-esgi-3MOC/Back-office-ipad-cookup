@@ -5,20 +5,19 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cookup" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Cookup" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KvM-5o-upm">
                         <rect key="frame" x="0.0" y="0.0" width="1180" height="820"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EiF-8V-jET">
-                                <rect key="frame" x="529" y="399.5" width="524" height="76"/>
+                                <rect key="frame" x="529" y="441" width="524" height="84"/>
                                 <color key="backgroundColor" red="0.2153100537" green="0.63982728629999996" blue="0.39813763639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="76" id="49p-VX-2YA"/>
@@ -33,7 +32,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3LN-cj-MY5">
-                                <rect key="frame" x="529" y="575.5" width="524" height="55"/>
+                                <rect key="frame" x="529" y="625" width="524" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="524" id="ShG-nd-0C8"/>
                                     <constraint firstAttribute="height" constant="55" id="spI-VQ-wL2"/>
@@ -42,7 +41,7 @@
                                 <buttonConfiguration key="configuration" style="plain" image="th-removebg-preview 1" title="Connectez vous avec Google" imagePadding="90" cornerStyle="medium"/>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1vj-9N-ZOM">
-                                <rect key="frame" x="529" y="319" width="524" height="34.5"/>
+                                <rect key="frame" x="529" y="319" width="524" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="524" id="6bi-Es-g3V"/>
                                     <constraint firstAttribute="height" constant="76" id="eFc-gn-amb"/>
@@ -70,17 +69,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ou" translatesAutoresizingMaskIntoConstraints="NO" id="MpI-k3-Q05">
-                                <rect key="frame" x="529" y="514.5" width="524" height="32"/>
+                                <rect key="frame" x="529" y="564" width="524" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="JHf-rp-41a"/>
                                     <constraint firstAttribute="width" constant="524" id="Wvx-xI-oQJ"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K1k-JR-svx">
-                                <rect key="frame" x="51" y="55" width="414" height="670.5"/>
+                                <rect key="frame" x="51" y="55" width="414" height="720"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2mL-ei-mhg">
-                                        <rect key="frame" x="51" y="471" width="313" height="169"/>
+                                        <rect key="frame" x="51" y="520.5" width="313" height="169"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVU-wN-dwm">
                                                 <rect key="frame" x="74" y="39" width="165.5" height="90"/>
@@ -106,7 +105,7 @@ is coming </string>
                                         </constraints>
                                     </view>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_cookup-removebg-preview" adjustsImageSizeForAccessibilityContentSizeCategory="YES" id="SqN-y8-YaJ">
-                                        <rect key="frame" x="92" y="105" width="230" height="213"/>
+                                        <rect key="frame" x="92" y="105" width="230" height="263"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
                                     </imageView>
@@ -160,21 +159,6 @@ is coming </string>
             </objects>
             <point key="canvasLocation" x="895.93220338983053" y="2.9268292682926829"/>
         </scene>
-        <!--HomeViewController-->
-        <scene sceneID="l1j-JG-I8v">
-            <objects>
-                <viewController storyboardIdentifier="HomeViewController" title="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0tx-6F-Cc1" customClass="HomeViewController" customModule="Cookup" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DDQ-on-B56">
-                        <rect key="frame" x="0.0" y="0.0" width="1180" height="820"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="eo3-42-qfL"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="k2k-Aj-pD9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1579" y="-643"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="613-qN-xfq">
             <objects>
@@ -193,13 +177,55 @@ is coming </string>
             </objects>
             <point key="canvasLocation" x="139.7560975609756" y="3.5593220338983054"/>
         </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="U6r-dN-pYm">
+            <objects>
+                <viewController storyboardIdentifier="MenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8d6-sP-RVq" customClass="MenuViewController" customModule="Cookup" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hhX-9t-ooC">
+                        <rect key="frame" x="0.0" y="0.0" width="1180" height="820"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4V-hA-IV8" userLabel="profile">
+                                <rect key="frame" x="209" y="232" width="75" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="profile" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Obh-UF-fIs" userLabel="dashboard">
+                                <rect key="frame" x="209" y="317" width="75" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="dashboard" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ern-MN-ueK" userLabel="stream">
+                                <rect key="frame" x="209" y="411" width="75" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="stream" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuQ-r3-MWv">
+                                <rect key="frame" x="209" y="540" width="75" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="message" title="message"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V2D-Mo-2Ih"/>
+                        <color key="backgroundColor" red="0.21878737209999999" green="0.63749313350000003" blue="0.39801466460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hqx-e5-AFU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1571.6949152542375" y="2.9268292682926829"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Ou" width="703" height="36"/>
+        <image name="dashboard" width="50" height="50"/>
         <image name="logo_cookup-removebg-preview" width="251.5" height="248"/>
+        <image name="message" width="50" height="50"/>
+        <image name="profile" width="50" height="50"/>
+        <image name="stream" width="50" height="50"/>
         <image name="th-removebg-preview 1" width="50" height="41"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
