@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     macos:
-      xcode: "12.4.0"
+      xcode: "16.2"
     steps:
       - checkout
       - run: pod install
