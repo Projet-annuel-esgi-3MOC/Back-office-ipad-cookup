@@ -42,7 +42,7 @@ class LoginViewController: UIViewController, UISplitViewControllerDelegate {
         splitViewController.delegate = self
         
         // Set preferred display mode
-        splitViewController.preferredDisplayMode = .allVisible
+        splitViewController.preferredDisplayMode = UISplitViewController.DisplayMode.oneBesideSecondary
         
         // Set maximum primary column width
         splitViewController.maximumPrimaryColumnWidth = UIScreen.main.bounds.width * 0.5

@@ -3,7 +3,7 @@
     <device id="ipad10_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -177,55 +177,10 @@ is coming </string>
             </objects>
             <point key="canvasLocation" x="139.7560975609756" y="3.5593220338983054"/>
         </scene>
-        <!--Menu View Controller-->
-        <scene sceneID="U6r-dN-pYm">
-            <objects>
-                <viewController storyboardIdentifier="MenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8d6-sP-RVq" customClass="MenuViewController" customModule="Cookup" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hhX-9t-ooC">
-                        <rect key="frame" x="0.0" y="0.0" width="1180" height="820"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4V-hA-IV8" userLabel="profile">
-                                <rect key="frame" x="209" y="232" width="75" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="profile" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Obh-UF-fIs" userLabel="dashboard">
-                                <rect key="frame" x="209" y="317" width="75" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="dashboard" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ern-MN-ueK" userLabel="stream">
-                                <rect key="frame" x="209" y="411" width="75" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="stream" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuQ-r3-MWv">
-                                <rect key="frame" x="209" y="540" width="75" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="message" title="message"/>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="V2D-Mo-2Ih"/>
-                        <color key="backgroundColor" red="0.21878737209999999" green="0.63749313350000003" blue="0.39801466460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hqx-e5-AFU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1571.6949152542375" y="2.9268292682926829"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Ou" width="703" height="36"/>
-        <image name="dashboard" width="50" height="50"/>
         <image name="logo_cookup-removebg-preview" width="251.5" height="248"/>
-        <image name="message" width="50" height="50"/>
-        <image name="profile" width="50" height="50"/>
-        <image name="stream" width="50" height="50"/>
         <image name="th-removebg-preview 1" width="50" height="41"/>
     </resources>
 </document>

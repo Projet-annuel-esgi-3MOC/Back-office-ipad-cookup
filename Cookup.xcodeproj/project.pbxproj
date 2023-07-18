@@ -13,6 +13,8 @@
 		2F1811EA29CA0005008A599C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1811E829CA0005008A599C /* Main.storyboard */; };
 		2F1811EC29CA0006008A599C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1811EB29CA0006008A599C /* Assets.xcassets */; };
 		2F1811EF29CA0006008A599C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1811ED29CA0006008A599C /* LaunchScreen.storyboard */; };
+		2F5E4B352A27AC7000208A7C /* PasswordForgotenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E4B332A27AC7000208A7C /* PasswordForgotenViewController.swift */; };
+		2F5E4B362A27AC7000208A7C /* PasswordForgotenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5E4B342A27AC7000208A7C /* PasswordForgotenViewController.xib */; };
 		2F8472E32A032498002E9C42 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8472E22A032498002E9C42 /* DashboardViewController.swift */; };
 		2F8472E52A03249F002E9C42 /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8472E42A03249F002E9C42 /* StreamViewController.swift */; };
 		2F8472E72A0324A6002E9C42 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8472E62A0324A6002E9C42 /* MessagesViewController.swift */; };
@@ -20,8 +22,20 @@
 		2F8472EB2A03288E002E9C42 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8472E92A03288E002E9C42 /* MenuViewController.xib */; };
 		2F8472EE2A032B2A002E9C42 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8472EC2A032B2A002E9C42 /* ProfileViewController.swift */; };
 		2F8472EF2A032B2A002E9C42 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8472ED2A032B2A002E9C42 /* ProfileViewController.xib */; };
-		2F8472F12A054272002E9C42 /* .circle.ci:config.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2F8472F02A054272002E9C42 /* .circle.ci:config.yml */; };
+		2F8472F92A055111002E9C42 /* CookupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8472F82A055111002E9C42 /* CookupUITests.swift */; };
+		2F8472FB2A055111002E9C42 /* CookupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8472FA2A055111002E9C42 /* CookupUITestsLaunchTests.swift */; };
+		2F8473022A05553C002E9C42 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8473012A05553C002E9C42 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F8472FC2A055111002E9C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F1811D729CA0005008A599C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1811DE29CA0005008A599C;
+			remoteInfo = Cookup;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2F1811DF29CA0005008A599C /* Cookup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookup.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +46,8 @@
 		2F1811EB29CA0006008A599C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F1811EE29CA0006008A599C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F1811F029CA0006008A599C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5E4B332A27AC7000208A7C /* PasswordForgotenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordForgotenViewController.swift; sourceTree = "<group>"; };
+		2F5E4B342A27AC7000208A7C /* PasswordForgotenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordForgotenViewController.xib; sourceTree = "<group>"; };
 		2F8472E22A032498002E9C42 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		2F8472E42A03249F002E9C42 /* StreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
 		2F8472E62A0324A6002E9C42 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
@@ -39,11 +55,21 @@
 		2F8472E92A03288E002E9C42 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		2F8472EC2A032B2A002E9C42 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2F8472ED2A032B2A002E9C42 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
-		2F8472F02A054272002E9C42 /* .circle.ci:config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = ".circle.ci:config.yml"; sourceTree = "<group>"; };
+		2F8472F62A055111002E9C42 /* CookupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8472F82A055111002E9C42 /* CookupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookupUITests.swift; sourceTree = "<group>"; };
+		2F8472FA2A055111002E9C42 /* CookupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F8473012A05553C002E9C42 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2F1811DC29CA0005008A599C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8472F32A055111002E9C42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				2F1811E129CA0005008A599C /* Cookup */,
+				2F8472F72A055111002E9C42 /* CookupUITests */,
 				2F1811E029CA0005008A599C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				2F1811DF29CA0005008A599C /* Cookup.app */,
+				2F8472F62A055111002E9C42 /* CookupUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,10 +103,11 @@
 				2F1811E229CA0005008A599C /* AppDelegate.swift */,
 				2F1811E829CA0005008A599C /* Main.storyboard */,
 				2F1811E429CA0005008A599C /* SceneDelegate.swift */,
+				2F5E4B332A27AC7000208A7C /* PasswordForgotenViewController.swift */,
+				2F5E4B342A27AC7000208A7C /* PasswordForgotenViewController.xib */,
 				2F1811E629CA0005008A599C /* LoginViewController.swift */,
 				2F8472E82A03288E002E9C42 /* MenuViewController.swift */,
 				2F8472E92A03288E002E9C42 /* MenuViewController.xib */,
-				2F8472F02A054272002E9C42 /* .circle.ci:config.yml */,
 				2F8472EC2A032B2A002E9C42 /* ProfileViewController.swift */,
 				2F8472ED2A032B2A002E9C42 /* ProfileViewController.xib */,
 				2F8472E22A032498002E9C42 /* DashboardViewController.swift */,
@@ -89,6 +118,16 @@
 				2F1811F029CA0006008A599C /* Info.plist */,
 			);
 			path = Cookup;
+			sourceTree = "<group>";
+		};
+		2F8472F72A055111002E9C42 /* CookupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F8473012A05553C002E9C42 /* SnapshotHelper.swift */,
+				2F8472F82A055111002E9C42 /* CookupUITests.swift */,
+				2F8472FA2A055111002E9C42 /* CookupUITestsLaunchTests.swift */,
+			);
+			path = CookupUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +150,24 @@
 			productReference = 2F1811DF29CA0005008A599C /* Cookup.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2F8472F52A055111002E9C42 /* CookupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8472FE2A055111002E9C42 /* Build configuration list for PBXNativeTarget "CookupUITests" */;
+			buildPhases = (
+				2F8472F22A055111002E9C42 /* Sources */,
+				2F8472F32A055111002E9C42 /* Frameworks */,
+				2F8472F42A055111002E9C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F8472FD2A055111002E9C42 /* PBXTargetDependency */,
+			);
+			name = CookupUITests;
+			productName = CookupUITests;
+			productReference = 2F8472F62A055111002E9C42 /* CookupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -118,11 +175,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					2F1811DE29CA0005008A599C = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					2F8472F52A055111002E9C42 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2F1811DE29CA0005008A599C;
 					};
 				};
 			};
@@ -140,6 +201,7 @@
 			projectRoot = "";
 			targets = (
 				2F1811DE29CA0005008A599C /* Cookup */,
+				2F8472F52A055111002E9C42 /* CookupUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -150,11 +212,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F1811EF29CA0006008A599C /* LaunchScreen.storyboard in Resources */,
+				2F5E4B362A27AC7000208A7C /* PasswordForgotenViewController.xib in Resources */,
 				2F1811EC29CA0006008A599C /* Assets.xcassets in Resources */,
 				2F1811EA29CA0005008A599C /* Main.storyboard in Resources */,
 				2F8472EF2A032B2A002E9C42 /* ProfileViewController.xib in Resources */,
 				2F8472EB2A03288E002E9C42 /* MenuViewController.xib in Resources */,
-				2F8472F12A054272002E9C42 /* .circle.ci:config.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8472F42A055111002E9C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,13 +239,32 @@
 				2F1811E329CA0005008A599C /* AppDelegate.swift in Sources */,
 				2F1811E529CA0005008A599C /* SceneDelegate.swift in Sources */,
 				2F8472E72A0324A6002E9C42 /* MessagesViewController.swift in Sources */,
+				2F5E4B352A27AC7000208A7C /* PasswordForgotenViewController.swift in Sources */,
 				2F8472E52A03249F002E9C42 /* StreamViewController.swift in Sources */,
 				2F8472EE2A032B2A002E9C42 /* ProfileViewController.swift in Sources */,
 				2F8472EA2A03288E002E9C42 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2F8472F22A055111002E9C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8472F92A055111002E9C42 /* CookupUITests.swift in Sources */,
+				2F8472FB2A055111002E9C42 /* CookupUITestsLaunchTests.swift in Sources */,
+				2F8473022A05553C002E9C42 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F8472FD2A055111002E9C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1811DE29CA0005008A599C /* Cookup */;
+			targetProxy = 2F8472FC2A055111002E9C42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2F1811E829CA0005008A599C /* Main.storyboard */ = {
@@ -326,7 +414,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -354,7 +442,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -365,6 +453,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F8472FF2A055111002E9C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3UR6K2TPM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pedriito.CookupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cookup;
+			};
+			name = Debug;
+		};
+		2F8473002A055111002E9C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3UR6K2TPM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pedriito.CookupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cookup;
 			};
 			name = Release;
 		};
@@ -385,6 +509,15 @@
 			buildConfigurations = (
 				2F1811F429CA0006008A599C /* Debug */,
 				2F1811F529CA0006008A599C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F8472FE2A055111002E9C42 /* Build configuration list for PBXNativeTarget "CookupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8472FF2A055111002E9C42 /* Debug */,
+				2F8473002A055111002E9C42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

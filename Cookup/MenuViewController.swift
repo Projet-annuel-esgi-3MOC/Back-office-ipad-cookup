@@ -30,20 +30,7 @@ class MenuViewController: UIViewController, UISplitViewControllerDelegate {
     */
 
     @IBAction func Profile_Tapped(_ sender: Any) {
-        print("profile tapped")
-        let menuVC = MenuViewController()
-        let menuNavController = UINavigationController(rootViewController: menuVC)
-        
-        let profileVC = ProfileViewController()
-        let profileNavController = UINavigationController(rootViewController: profileVC)
-        
-        let splitViewController = UISplitViewController()
-        splitViewController.viewControllers = [menuNavController,profileNavController]
-        splitViewController.modalPresentationStyle = .fullScreen
-        splitViewController.delegate = self
-        
-        present(splitViewController, animated: true, completion: nil)
-        
+        print("profile tapped")        
     }
     @IBAction func Stream_Tapped(_ sender: Any) {
        print("stream tapped")
